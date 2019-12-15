@@ -12,7 +12,14 @@ public class Exercise_04 {
 
     public static void main(String[] args) {
 
-        // write code here
+        double volume;
+        volume = 3.14 * Math.pow(3.14, 2) * 5;
+        double surface;
+        surface = 2 * 3.14 * 3.14 * 5;
+
+        System.out.println(volume);
+        System.out.println(surface);
+
 
     }
 }

@@ -1,5 +1,6 @@
 package labs_examples.fundamentals.labs;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
@@ -22,6 +23,9 @@ public class Exercise_05 {
         System.out.print("Enter a number in days between 1 and 1,000,000: ");
         // assign input to variable as int
         int days = scanner.nextInt();
+        //days in seconds
+        int seconds = days * 24 / 60 / 60;
+        System.out.println(seconds);
 
         // write completed code here
 
